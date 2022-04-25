@@ -1,7 +1,8 @@
 @extends('layouts.user-layout.app')
 
 @section('content')
-<div class="container">
+<section class="my-5 py-5">
+    <div class="container">
             <div class="row align-items-center">
             <div class="col-lg-6 ms-auto">
                 <div class="row justify-content-start">
@@ -128,4 +129,5 @@
             </div>
             </div>
         </div>
+</section>
 @endsection

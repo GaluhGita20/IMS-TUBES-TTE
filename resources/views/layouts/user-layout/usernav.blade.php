@@ -138,7 +138,7 @@
                     </a>
                 </li>
                 <li class="nav-item my-auto ms-3 ms-lg-0">                    
-                    <a href="https://www.creative-tim.com/product/soft-ui-design-system-pro" class="btn btn-sm  bg-gradient-primary  btn-round mb-0 me-1 mt-2 mt-md-0">SIGN UP</a>                    
+                    <a href="https://www.creative-tim.com/product/soft-ui-design-system-pro" class="btn btn-sm  bg-gradient-custom  btn-round mb-0 me-1 mt-2 mt-md-0">SIGN UP</a>                    
                 </li>
             </ul>
         </div>

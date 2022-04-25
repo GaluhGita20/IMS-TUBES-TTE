@@ -9354,6 +9354,10 @@ textarea.form-control-lg {
   color: #cb0c9f !important;
 }
 
+.text-custom {
+  color: #36C95F !important;
+}
+
 .text-secondary {
   color: #8392AB !important;
 }
@@ -20297,6 +20301,10 @@ label,
   background-image: linear-gradient(310deg, #7928CA 0%, #FF0080 100%);
 }
 
+.bg-gradient-custom {
+  background-image: linear-gradient(310deg, #36C95F 0%, #FFFF00 130%);
+}
+
 .bg-gradient-secondary {
   background-image: linear-gradient(310deg, #627594 0%, #A8B8D8 100%);
 }
@@ -22971,6 +22979,9 @@ p {
 }
 .text-gradient.text-primary {
   background-image: linear-gradient(310deg, #7928CA, #FF0080);
+}
+.text-gradient.text-custom {
+  background-image: linear-gradient(310deg, #36C95F, #FFFF00);
 }
 .text-gradient.text-info {
   background-image: linear-gradient(310deg, #2152FF, #21D4FD);
