@@ -18,7 +18,7 @@ Route::get('/', function () {
 });
 
 Route::get('/dashboard', function () {
-    return view('layouts.user-layout.dashboard');
+    return view('layouts.user-layout.home');
 });
 
 Route::get('/login', function () {
@@ -27,4 +27,8 @@ Route::get('/login', function () {
 
 Route::get('/register', function () {
     return view('auth.register');
+});
+
+Route::get('/aboutus', function () {
+    return view('layouts.user-layout.aboutus');
 });

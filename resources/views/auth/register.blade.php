@@ -21,6 +21,13 @@
                                 <div class="mb-3">
                                     <input type="password" class="form-control form-control-lg" placeholder="Password" aria-label="Password" aria-describedby="password-addon">
                                 </div>
+                                <div class="mb-3">
+                                    <input type="password" class="form-control form-control-lg" placeholder="Confirm    Password" aria-label="Password" aria-describedby="password-addon">
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">Want to become an instructor?</label>
+                                </div>
                                 <div class="form-check form-switch">
                                     <input class="form-check-input" type="checkbox" id="rememberMe">
                                     <label class="form-check-label" for="rememberMe">Remember me</label>
