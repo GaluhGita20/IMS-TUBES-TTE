@@ -23,6 +23,11 @@ class User extends Authenticatable
         'password',
     ];
 
+    public function activity_detail_participants(){
+        return $this->hasMany('App\Models\ActivityDetailParticipant');
+    }
+
+
     /**
      * The attributes that should be hidden for serialization.
      *

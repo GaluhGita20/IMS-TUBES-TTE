@@ -10,7 +10,7 @@
     <link rel="icon" type="image/png" href="{{asset('layout/user-layout/assets/img/favicon.png')}}./">
 
     <title>  
-        Soft UI Design System by Creative Tim
+        Sertificate Online - User| Login
     </title>
 
     <!--     Fonts and icons     -->
@@ -31,11 +31,6 @@
 
 <body class="index-page">
 
-    <!-- Navbar -->
-    <div class="container position-sticky z-index-sticky top-0"><div class="row"><div class="col-12">
-        @include('layouts.user-layout.usernav')    
-    </div></div></div>
-    <!-- End Navbar -->
 
     <!-- Section -->    
         @yield('content')    

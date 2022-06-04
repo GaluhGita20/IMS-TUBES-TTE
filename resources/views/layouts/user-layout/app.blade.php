@@ -10,7 +10,7 @@
     <link rel="icon" type="image/png" href="{{asset('layout/user-layout/assets/img/favicon.png')}}./">
 
     <title>  
-        Soft UI Design System by Creative Tim
+        TTE With SignNow | User Dashboard
     </title>
 
     <!--     Fonts and icons     -->

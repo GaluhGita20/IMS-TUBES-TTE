@@ -48,15 +48,26 @@
                             </a>                            
                         </div>                        
                     </div>
-                </li>                  
+                </li>   
+                @if (Auth::guest())               
                 <li class="nav-item ms-lg-auto">
-                    <a class="nav-link nav-link-icon me-2" href="https://github.com/creativetimofficial/soft-ui-design-system" target="_blank">                        
+                    <a class="nav-link nav-link-icon me-2" href="{{Route('login')}}" target="_blank">                        
                         <p class="d-inline text-sm z-index-1 font-weight-bold" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Star us on Github">LOG IN</p>
                     </a>
                 </li>
                 <li class="nav-item my-auto ms-3 ms-lg-0">                    
-                    <a href="https://www.creative-tim.com/product/soft-ui-design-system-pro" class="btn btn-sm  bg-gradient-custom btn-round mb-0 me-1 mt-2 mt-md-0">SIGN UP</a>                    
+                    <a href="{{Route('register')}}" class="btn btn-sm  bg-gradient-custom btn-round mb-0 me-1 mt-2 mt-md-0">SIGN UP</a>                    
                 </li>
+                @else
+                <li class="nav-item ms-lg-auto">
+                    <a class="nav-link nav-link-icon me-2" href="/profile" target="_blank">                        
+                        <p class="d-inline text-sm z-index-1 font-weight-bold" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Star us on Github">Hello, {{Auth::user()->name}}</p>
+                    </a>
+                </li>
+                <li class="nav-item my-auto ms-3 ms-lg-0">                    
+                    <a href="{{Route('register')}}" class="btn btn-sm  bg-gradient-custom btn-round mb-0 me-1 mt-2 mt-md-0">Logout</a>                    
+                </li>
+                @endif
             </ul>
         </div>
     </div>
